@@ -13,6 +13,22 @@
     "excerpt": "이것은 GitHub Pages로 구축된 정적 블로그의 첫 번째 게시글입니다. 마크다운으로 다양한 형태의 콘텐츠를 작성할 수 있습니다. - 는 이렇게 작성합니다 - 도 가능합니다 - ~~취소선~~도 지원됩니다 JavaScript 코드 예시: Python 코드도 물론 가능합니다: 함수를 호출할 때는 `functionName()`처럼 인라인 코드를 사용합니다."
   },
   {
+    "file": "ai-tools-education-trends.md",
+    "title": "2025년 AI 툴 교육 트렌드: GPT, Gemini, Cursor를 활용하는 새로운 학습 패러다임",
+    "date": "2025-01-26",
+    "tags": [
+      "AI",
+      "교육",
+      "ChatGPT",
+      "Gemini",
+      "Cursor",
+      "트렌드"
+    ],
+    "category": "기술",
+    "description": "최신 AI 툴 교육 트렌드와 실전 활용 방법을 분석합니다. GPT, Gemini, Cursor 등 다양한 AI 도구를 효과적으로 학습하는 방법을 소개합니다.",
+    "excerpt": "AI 도구가 교육 분야를 빠르게 변화시키고 있습니다. ChatGPT, Gemini, Cursor 등 다양한 AI 플랫폼이 등장하면서, 이들을 효과적으로 활용하는 방법에 대한 관심이 높아지고 있습니다. 최신 트렌드와 이슈를 분석해보겠습니다. 최근 와 같은 통합 플랫폼이 주목받고 있습니다. 이들은 GPT-4o, Claude 3, Gemini Pro 등 여러 A..."
+  },
+  {
     "file": "ai-study-guide.md",
     "title": "AI를 수월하게 공부하는 방법: 실전 가이드",
     "date": "2025-01-26",
