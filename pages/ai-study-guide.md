@@ -1,9 +1,9 @@
 ---
-title: 'AI를 수월하게 공부하는 방법: 실전 가이드'
-date: 2025-01-26
-tags: ['AI', '학습', '가이드', '머신러닝']
-category: '개발'
-description: 'AI와 머신러닝을 효과적으로 학습하는 방법과 실용적인 팁을 소개합니다.'
+title: "AI를 수월하게 공부하는 방법: 실전 가이드"
+date: 2025-11-28
+tags: ["AI", "학습", "가이드", "머신러닝"]
+category: "개발"
+description: "AI와 머신러닝을 효과적으로 학습하는 방법과 실용적인 팁을 소개합니다."
 ---
 
 # AI를 수월하게 공부하는 방법: 실전 가이드
@@ -37,6 +37,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 ```
 
 **추천 언어**:
+
 - **Python**: 가장 널리 사용되며, 풍부한 라이브러리 제공
 - **R**: 통계 분석에 특화
 - **Julia**: 고성능 과학 계산
@@ -46,12 +47,14 @@ X_train, X_test, y_train, y_test = train_test_split(
 ### 단계 1: 머신러닝 기초 (2-3개월)
 
 1. **지도학습 기초**
+
    - 선형 회귀
    - 로지스틱 회귀
    - 결정 트리
    - 랜덤 포레스트
 
 2. **비지도학습**
+
    - K-means 클러스터링
    - 주성분 분석(PCA)
 
@@ -63,11 +66,13 @@ X_train, X_test, y_train, y_test = train_test_split(
 ### 단계 2: 딥러닝 입문 (3-4개월)
 
 1. **신경망 기초**
+
    - 퍼셉트론
    - 다층 퍼셉트론(MLP)
    - 역전파 알고리즘
 
 2. **CNN (합성곱 신경망)**
+
    - 이미지 분류
    - 객체 탐지
 
@@ -112,6 +117,7 @@ model.compile(
 **학습한 내용을 바로 프로젝트에 적용**하세요:
 
 1. **작은 프로젝트부터 시작**
+
    - 개인 취향 기반 영화 추천 시스템
    - 감정 분석 챗봇
    - 이미지 스타일 변환
@@ -131,20 +137,22 @@ model.compile(
 
 ### 온라인 강의
 
-| 플랫폼 | 강의명 | 난이도 | 추천도 |
-|--------|--------|--------|--------|
-| Coursera | Machine Learning (Andrew Ng) | 초급 | ⭐⭐⭐⭐⭐ |
-| fast.ai | Practical Deep Learning | 중급 | ⭐⭐⭐⭐⭐ |
-| Udacity | Deep Learning Nanodegree | 중급 | ⭐⭐⭐⭐ |
-| edX | MIT Introduction to ML | 고급 | ⭐⭐⭐⭐ |
+| 플랫폼   | 강의명                       | 난이도 | 추천도     |
+| -------- | ---------------------------- | ------ | ---------- |
+| Coursera | Machine Learning (Andrew Ng) | 초급   | ⭐⭐⭐⭐⭐ |
+| fast.ai  | Practical Deep Learning      | 중급   | ⭐⭐⭐⭐⭐ |
+| Udacity  | Deep Learning Nanodegree     | 중급   | ⭐⭐⭐⭐   |
+| edX      | MIT Introduction to ML       | 고급   | ⭐⭐⭐⭐   |
 
 ### 도서
 
 1. **"Hands-On Machine Learning"** - Aurélien Géron
+
    - 실전 중심의 훌륭한 입문서
    - Scikit-learn과 TensorFlow 활용
 
 2. **"Deep Learning"** - Ian Goodfellow
+
    - 딥러닝의 이론적 배경
    - 수학적 엄밀함
 
@@ -169,11 +177,11 @@ def f(x,y):return x**2+y**2 if x>0 else 0
 def calculate_distance_squared(x, y):
     """
     두 점 사이의 거리의 제곱을 계산합니다.
-    
+
     Args:
         x: 첫 번째 좌표
         y: 두 번째 좌표
-    
+
     Returns:
         거리의 제곱값
     """
@@ -212,12 +220,12 @@ def calculate_distance_squared(x, y):
 
 ### 주 10시간 학습 계획
 
-| 요일 | 시간 | 내용 |
-|------|------|------|
+| 요일       | 시간     | 내용                 |
+| ---------- | -------- | -------------------- |
 | 월, 수, 금 | 각 2시간 | 이론 학습 (강의, 책) |
-| 화, 목 | 각 1시간 | 실습 및 코딩 |
-| 토요일 | 2시간 | 프로젝트 작업 |
-| 일요일 | 휴식 | - |
+| 화, 목     | 각 1시간 | 실습 및 코딩         |
+| 토요일     | 2시간    | 프로젝트 작업        |
+| 일요일     | 휴식     | -                    |
 
 ### 3개월 집중 학습 계획
 
@@ -234,9 +242,9 @@ AI 학습은 마라톤입니다. 하루아침에 모든 것을 배울 수는 없
 ---
 
 **추가 학습 자료**:
+
 - [Fast.ai](https://www.fast.ai/) - 실전 중심 무료 강의
 - [Kaggle Learn](https://www.kaggle.com/learn) - 단계별 튜토리얼
 - [Papers with Code](https://paperswithcode.com/) - 논문과 코드 함께 보기
 
 행운을 빕니다! 🚀
-

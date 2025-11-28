@@ -19,6 +19,10 @@ const posts = files.map((filename) => {
   const filePath = path.join(postsDir, filename);
   let content = fs.readFileSync(filePath, 'utf8');
 
+  // 파일 수정 시간 가져오기 (최신 발행 날짜로 사용)
+  const stats = fs.statSync(filePath);
+  const fileDate = new Date(stats.mtime).toISOString().split('T')[0];
+
   // UTF-8 BOM 제거 (Windows 호환)
   if (content.charCodeAt(0) === 0xFEFF) {
     content = content.slice(1);
@@ -81,7 +85,8 @@ const posts = files.map((filename) => {
   return {
     file: filename,
     title: metadata.title || filename.replace('.md', ''),
-    date: metadata.date || new Date().toISOString().split('T')[0],
+    // 파일 수정 시간을 발행 날짜로 사용 (항상 최신 날짜 반영)
+    date: fileDate,
     tags: Array.isArray(metadata.tags) ? metadata.tags : [],
     category: metadata.category || '',
     description: metadata.description || '',
